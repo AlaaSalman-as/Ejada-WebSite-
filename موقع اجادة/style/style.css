@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    background-color:#d4d2d6;
+    text-align: right;
+}
+/**************************************/
+.tajawal{
+    /* THIS CLASS IS FOR THE FONT THAT USED IN THE WEBSITE */ 
+    font-family: 'Tajawal', 'sans-serif';
+}
+.blue{
+    /* THIS CLASS IS FOR THE FONTS THAT THERE COLOR IS BLUE */
+    COLOR:#54515A !important ;
+    text-shadow: .3PX .3PX 1PX #54515A !important;
+}
+.brown{
+    /* THIS CLASS IS FOR THE FONTS THAT THERE COLOR IS BROWN */
+    COLOR:#8a7a71 !important;
+    text-shadow: .3PX .3PX 1PX #8a7a71 !important;
+}
+.white{
+    color:white;
+    text-shadow:.3px .3px 1px white;
+}
+.white:hover{
+    color:#3c3b3f;
+    text-shadow: .3px .3px 1px #3c3b3f;
+    cursor: pointer;
+}
+
+.one{
+ font-size: 1.4rem;
+}
+.two{
+    font-size: 2rem;
+}
+.three{
+    font-size: 3rem;
+}
+.four{
+    font-size: 4rem;
+}
+.five{
+    font-size: 5rem;
+}
+
+/**************************************/
+.bg-brown{
+    background-color:#8a7a71;
+    box-shadow: .5px .5px 1px #8a7a71;
+    height:75px;
+}
+.ejadaNavbar{
+    height:85px;
+    position: relative;
+    top:5%;
+}
+.nav{
+    background-color:white !important;
+    box-shadow:5px 5px 10px white !important;
+}
+.nav-link{
+    border-left: 2px #8a7a71 solid;
+    padding-left:40px;
+}
+.what{
+    border-right:5px solid #6690b8;
+}
+.what2{
+    border-right:5px solid #8a7a71;
+}
+.footer{
+    border:#8a7a71 2px solid;
+    background-color: #8a7a71;
+    text-align:right;
+    height:350px;
+}
+.footer h1{
+    margin-right:30px
+}
+.final{
+    margin-right: -10px;
+    position: relative;
+    top:100px;
+    color:white
+}
+/******************************************************************/
+.shake-horizontal {
+	-webkit-animation: shake-horizontal 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+ @-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  h1::selection,  p::selection  ,li::selection ,span::selection  {
+      background-color:white;
+  }
+/*******************************************************/
+/***** Developed By .Alaa Odeh ****************/
+/***** PTC - Company **************************/
